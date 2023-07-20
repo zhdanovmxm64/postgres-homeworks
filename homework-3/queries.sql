@@ -59,3 +59,4 @@ WHERE
 	    FROM order_details
 	    WHERE products.product_id = order_details.product_id
 	    AND order_details.quantity = 10
+    )
